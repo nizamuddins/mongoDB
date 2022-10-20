@@ -1,4 +1,3 @@
-const { get } = require('http');
 const { MongoClient } = require('mongodb');
 let url = "mongodb+srv://nizam:nizam@cluster0.phabhjk.mongodb.net/test"
 const client = new MongoClient(url);
